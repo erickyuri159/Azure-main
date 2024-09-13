@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d79758fb0a1b4da376d454c953115, type: 3}
+  m_Name: Whip
+  m_EditorClassIdentifier: 
+  parent: 1
+  weaponType: 0
+  attackPower: 10
+  attackSpeed: 1.3
+  inactiveDelay: 0.2
+  weaponSprite: {fileID: -465610811, guid: 3b3443995bb1f62439b43ad001f69b6c, type: 3}
+  description: Ataca horizontalmente, passa pelos inimigos
+  basePosition: {x: 2.3, y: 0.78}
+  baseScale: {x: 2.8, y: 1.7}
