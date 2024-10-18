@@ -1,0 +1,1464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2022837933063431834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8431178401867890365}
+  - component: {fileID: 1864197142600555131}
+  - component: {fileID: 7348089868865835225}
+  - component: {fileID: 843277106366641501}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8431178401867890365
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022837933063431834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5324113126068803560}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1864197142600555131
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022837933063431834}
+  m_CullTransparentMesh: 1
+--- !u!114 &7348089868865835225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022837933063431834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Pular
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5a7da7ef49f1d7146ae2969177d4775b, type: 2}
+  m_sharedMaterial: {fileID: 180964203553743558, guid: 5a7da7ef49f1d7146ae2969177d4775b, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &843277106366641501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022837933063431834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a465f934bde01b84b90e2fc43d99643d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2543280523671459661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5324113126068803560}
+  - component: {fileID: 8684833369511213197}
+  - component: {fileID: 2484663432474436490}
+  - component: {fileID: 8254583845713611337}
+  m_Layer: 5
+  m_Name: SkipButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5324113126068803560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543280523671459661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8431178401867890365}
+  m_Father: {fileID: 4516085888506910079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 84.400024, y: 619.6}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 1, y: 1}
+--- !u!222 &8684833369511213197
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543280523671459661}
+  m_CullTransparentMesh: 1
+--- !u!114 &2484663432474436490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543280523671459661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8254583845713611337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543280523671459661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2484663432474436490}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &4516085887954367557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085887954367558}
+  - component: {fileID: 4516085887954367576}
+  - component: {fileID: 4516085887954367559}
+  m_Layer: 5
+  m_Name: DialogoText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085887954367558
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085887954367557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4516085888506910079}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -185, y: 0}
+  m_SizeDelta: {x: -430, y: -60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4516085887954367576
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085887954367557}
+  m_CullTransparentMesh: 1
+--- !u!114 &4516085887954367559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085887954367557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5a7da7ef49f1d7146ae2969177d4775b, type: 2}
+  m_sharedMaterial: {fileID: 180964203553743558, guid: 5a7da7ef49f1d7146ae2969177d4775b, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 46
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 46
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &4516085888270554323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085888270554324}
+  - component: {fileID: 4516085888270554326}
+  - component: {fileID: 4516085888270554325}
+  m_Layer: 5
+  m_Name: SpeakerBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085888270554324
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888270554323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5327547682892927637}
+  - {fileID: 1435605474601903375}
+  - {fileID: 4516085888540874881}
+  - {fileID: 4516085889022072344}
+  m_Father: {fileID: 4516085888855768599}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 250, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4516085888270554326
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888270554323}
+  m_CullTransparentMesh: 1
+--- !u!114 &4516085888270554325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888270554323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3584906, g: 0.085902445, b: 0.085902445, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4516085888506910078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085888506910079}
+  - component: {fileID: 4516085888506910065}
+  - component: {fileID: 4516085888506910064}
+  - component: {fileID: 4516085888506910066}
+  m_Layer: 5
+  m_Name: DialogoFundo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085888506910079
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888506910078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5324113126068803560}
+  - {fileID: 4516085887954367558}
+  - {fileID: 4516085888855768599}
+  m_Father: {fileID: 4516085889420524763}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.07, y: 0.05}
+  m_AnchorMax: {x: 0.93, y: 0.38}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4516085888506910065
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888506910078}
+  m_CullTransparentMesh: 1
+--- !u!114 &4516085888506910064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888506910078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7254902}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!225 &4516085888506910066
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888506910078}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!1 &4516085888540874880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085888540874881}
+  - component: {fileID: 4516085888540874883}
+  - component: {fileID: 4516085888540874882}
+  m_Layer: 5
+  m_Name: SpeakerImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085888540874881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888540874880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4516085888270554324}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 170, y: 170}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &4516085888540874883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888540874880}
+  m_CullTransparentMesh: 1
+--- !u!114 &4516085888540874882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888540874880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4516085888855768598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085888855768599}
+  m_Layer: 5
+  m_Name: Portrait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085888855768599
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085888855768598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4516085888270554324}
+  m_Father: {fileID: 4516085888506910079}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!1 &4516085889022072327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085889022072344}
+  - component: {fileID: 4516085889022072346}
+  - component: {fileID: 4516085889022072345}
+  m_Layer: 5
+  m_Name: SpeakerName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085889022072344
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889022072327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4516085888270554324}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4516085889022072346
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889022072327}
+  m_CullTransparentMesh: 1
+--- !u!114 &4516085889022072345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889022072327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 44.75
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &4516085889420524743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516085889420524763}
+  - component: {fileID: 4516085889420524762}
+  - component: {fileID: 4516085889420524761}
+  - component: {fileID: 4516085889420524760}
+  - component: {fileID: 4516085889420524764}
+  m_Layer: 5
+  m_Name: CanvasDialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4516085889420524763
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889420524743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4516085888506910079}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &4516085889420524762
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889420524743}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &4516085889420524761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889420524743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &4516085889420524760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889420524743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4516085889420524764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516085889420524743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ba269ea1735b24d84770e2e5058bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  b_pular: {fileID: 0}
+  DialogueDetailsArray:
+  - dialogue:
+    - Who is it-
+    - "Quem \xE9-"
+    speakerID: 3
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - ?!
+    - ?!
+    speakerID: 3
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Snow White\u2026 w-why are you here?"
+    - "Branca de Neve\u2026 p-por que est\xE1 aqui?"
+    speakerID: 3
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Stepmother\u2026 no, Grimhilde. "
+    - "Madrasta\u2026 n\xE3o, Grimhilde."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - I need your help.
+    - Preciso da sua ajuda.
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Have you finally come to finish me off? Leave me alone! I want to stay away
+      from you, little girl!
+    - "Finalmente veio me matar de vez? Me deixe em paz! Quero ficar longe de voc\xEA,
+      garotinha!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Don\u2019t be like that\u2026 you\u2019re not the one I wanna kill."
+    - "N\xE3o seja assim\u2026 n\xE3o \xE9 voc\xEA que quero matar."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "\u2026"
+    - "\u2026"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Come in.
+    - Entre.
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "How did you know I\u2019m alive?"
+    - Como soube que estou viva?
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "I heard it from the birds. Didn\u2019t imagine I\u2019d receive such good
+      news."
+    - "Ouvi pelos p\xE1ssaros. N\xE3o achei que fosse receber uma not\xEDcia t\xE3o
+      boa."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "I believe I\u2019m starting to get what you want. KAKAKAKA!"
+    - "Acho que estou entendendo o que voc\xEA quer. KAKAKAKA!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Your eyes reveal everything, my Queen.
+    - Seus olhos revelam tudo, minha Rainha.
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Go on and explain what happened.
+    - Explica logo o que aconteceu.
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - After marrying Prince Florian, I started life in the castle.
+    - "Depois de me casar com o Pr\xEDncipe Florian, fui viver no castelo."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "I thought I\u2019d live a fairy tale life!"
+    - Pensei que ia viver um conto de fadas!
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "That *CENSORED* showed his true colors\u2026"
+    - Aquele *CENSURADO* revelou sua face verdadeira.
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Having the fairest in all the land was all it took for that cretin to stop
+      caring about me.
+    - "Foi s\xF3 conseguir a mais bela do reino, que aquele cretino parou de me dar
+      valor."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "First he starts getting very busy\u2026 then new women start appearing\u2026"
+    - "Primeiro ele come\xE7a a estar muito ocupado\u2026 depois mulheres novas come\xE7am
+      a aparecer\u2026"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - When I tried bringing that up with him, I got screamed at.
+    - Quando eu tentei questionar ele sobre isso, ele gritou comigo.
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - I also noticed how much he drinks. That castle has rooms that purely smell
+      like alcohol.
+    - "Percebi o quanto ele bebe tamb\xE9m. Aquele castelo tem quartos com cheiro
+      puro de \xE1lcool."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "I don\u2019t know how many months it\u2019s been, but I\u2019m being confined
+      in a room underground. With guards outside."
+    - "N\xE3o sei quantos meses j\xE1 deu, mas t\xF4 sendo confinada a um quarto
+      no subsolo. Com guardas do lado de fora."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Room my *CENSORED*! I\u2019ve been living in a cell."
+    - "Quarto \xE9 o *CENSURADO*! Estive vivendo numa cela."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - AAAAKKAKA, what a story!
+    - "AAAAKKAKA, uma hist\xF3ria e tanto!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - So you want to kill-
+    - "Ent\xE3o voc\xEA quer matar-"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - The Prince.
+    - "O Pr\xEDncipe."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Perfect! Really marvelous\u2026"
+    - "Perfeito! Que maravilha\u2026"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "You\u2019ve really changed! I\u2019m so proud!"
+    - "Voc\xEA realmente mudou tanto! Que orgulho!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Yeah\u2026 these last two years opened my eyes."
+    - "\xC9\u2026 estes \xFAltimos dois anos abriram meus olhos."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Countless nights have passed where I could only dream to have eaten that apple
+      when I had the chance\u2026"
+    - "Passei incont\xE1veis noites desejando ter comido aquela ma\xE7\xE3 quando
+      tive a chance\u2026"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - But finally, finally, finally
+    - Mas finalmente, finalmente, finalmente
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Finally, I can nip that damn guy that left me to rot by the bud.
+    - "Finalmente, posso cortar pela ra\xEDz o maldito que me deixou apodrecer."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Grimhilde. I don\u2019t only wish for his death, but also his suffering, so
+      help me with your magic."
+    - "Grimhilde. Quero que ele n\xE3o apenas morra, mas sofra, ent\xE3o me ajude
+      com sua magia."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Please.
+    - Por favor.
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Your wish is beautiful\u2026 but you should know I don\u2019t do favors. Perhaps\u2026"
+    - "O seu desejo \xE9 lindo\u2026 mas voc\xEA deve saber que n\xE3o fa\xE7o favores.
+      Talvez\u2026"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Any type of royal title\u2026 a mansion with lots of butlers at my service\u2026
+      a pile of gold, or perhaps, perhaps!"
+    - "Um titulozinho da realeza\u2026 uma mans\xE3o com v\xE1rios mordomos a minha
+      disposi\xE7\xE3o\u2026 uma pilha de ouro, ou talvez, talvez!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Don't worry. After I get what I want, you can become Queen, command the kingdom,
+      *CENSORED*, bring ruin to the kingdom if you want to!
+    - "Se preocupa n\xE3o. Depois que eu conseguir o que quero, pode virar Rainha,
+      pode comandar o reino, *CENSURADO*, leve o reino \xE0 ru\xEDna se quiser!"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "I don\u2019t even like the people. You see, I discovered that the Prince's
+      true nature is deep inside all of us. Even myself."
+    - "Nem gostar desse povo eu gosto. Sabe, eu descobri que a natureza verdadeira
+      do pr\xEDncipe est\xE1 no fundo de todo mundo. At\xE9 eu."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Once I feel free, I just want to spend my life away from everyone.
+    - "Quando eu me sentir libertada, s\xF3 quero viver longe de todos."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - I almost shed a tear here!
+    - "Quase soltei uma l\xE1grima aqui!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Don\u2019t say another word. I\u2019ve already got the perfect spell in mind."
+    - "N\xE3o fale mais nada. J\xE1 at\xE9 tenho o feiti\xE7o perfeito em mente."
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - How do you plan on giving it to him? An apple pie? A caramel apple, perhaps?
+    - "De que forma deseja entregar a ele? Uma torta de ma\xE7\xE3? Uma ma\xE7\xE3
+      caramelizada, talvez?"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "An apple alcoholic beverage\u2026 I need to be sure he\u2019ll drink it, and
+      this way, he won\u2019t resist."
+    - "Bebida alc\xF3olica de ma\xE7\xE3. Quero a certeza de que ele ir\xE1 beber,
+      e com isso, ele n\xE3o vai resistir."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "My, how romantic! So you\u2019ll make him drink it yourself? "
+    - "Que rom\xE2ntico! Voc\xEA mesma deve fazer ele beber isso?"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Haha, don\u2019t make me laugh. I can\u2019t even talk to him properly nowadays,
+      just getting close to his food or rooms is impossible."
+    - "Haha, n\xE3o me fa\xE7a rir. Consigo nem falar com ele direito hoje em dia,
+      muito menos chegar perto de suas comidas ou c\xF4modos."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "But I\u2019ve planned that out already."
+    - "Mas j\xE1 planejei isso."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Come here, Berry.
+    - "Venha c\xE1, Berry."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Ugh! What is this wild creature doing here???
+    - "Ugh! O que esse bicho silvestre est\xE1 fazendo aqui???"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Are you done being dramatic there?
+    - "Acabou o drama j\xE1?"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - This is one of the only guys that keep me sane in this world.
+    - "Este \xE9 um dos \xFAnicos que me mant\xE9m s\xE3 neste mundo. "
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "My cute Berry will enter the castle, and go up till he reaches the Prince\u2019s
+      tower to deliver the present."
+    - "Meu pequeno Berry vai entrar no castelo, e subir at\xE9 a torre do Pr\xEDncipe
+      para a entrega de seu presentinho."
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Isn\u2019t that right, my precious cutie?~<3"
+    - "N\xE3o \xE9, meu chuchuzinho?~<3"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "\u2026 "
+    - "\u2026 "
+    speakerID: 4
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "That\u2019s the spirit!"
+    - "Esse \xE9 o esp\xEDrito!"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - Weird youngsters.
+    - Jovens esquisitos.
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - But, Snow White, everything comes at a price!
+    - Mas, Branca de Neve, tudo tem um custo!
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "In this case, it\u2019s just a few sacrifices."
+    - "Neste caso, s\xE3o apenas alguns sacrif\xEDcios."
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "What, do you think it was easy back in my days, honey? At least I had that
+      hunter to help me. So easy to manipulate\u2026"
+    - "Acha que foi f\xE1cil para mim na minha \xE9poca querida? Pelo menos tive
+      aquele ca\xE7ador pra me ajudar. T\xE3o facinho de manipular\u2026"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "I see\u2026 can you take care of that, Berry?"
+    - "Entendi\u2026 consegue cuidar disso, Berry?"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "\u2026"
+    - "\u2026"
+    speakerID: 4
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "Aww\u2026 I can always count on you!"
+    - "Aww\u2026 Sempre posso contar com voc\xEA!"
+    speakerID: 0
+    pauseBeforeDialogue: 0
+  - dialogue:
+    - "KAKAKAKA, well then, let\u2019s get to work!"
+    - "KAKAKAKA, m\xE3os \xE0 obra ent\xE3o!"
+    speakerID: 1
+    pauseBeforeDialogue: 0
+  DialogueSpeakerArray:
+  - speakers:
+    - Snow White
+    - Branca de Neve
+    speakerSprite: {fileID: 21300000, guid: 5a55d6fbe81e1bf40a42e1611004e3a4, type: 3}
+  - speakers:
+    - Grimhilde
+    - Grimhilde
+    speakerSprite: {fileID: 21300000, guid: bd57f16bc73d27f419dada9f50122bf5, type: 3}
+  - speakers:
+    - 
+    - 
+    speakerSprite: {fileID: 0}
+  - speakers:
+    - ???
+    - ???
+    speakerSprite: {fileID: 0}
+  - speakers:
+    - Berry
+    - Berry
+    speakerSprite: {fileID: 21300000, guid: 6432ca84c1a72e141b30ac8544a9a950, type: 3}
+  DialoguePanel: {fileID: 4516085888506910078}
+  cg_DialoguePanel: {fileID: 4516085888506910066}
+  falaTexto: {fileID: 4516085887954367559}
+  NomeFalante_Text: {fileID: 4516085889022072345}
+  Falante_Image: {fileID: 4516085888540874882}
+  nextScene: Castelo1
+  PretoExtra: {fileID: 0}
+--- !u!1 &6792101916662486056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5327547682892927637}
+  - component: {fileID: 6333040418921033717}
+  - component: {fileID: 3901563471747875429}
+  m_Layer: 5
+  m_Name: SpeakerBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5327547682892927637
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6792101916662486056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.05, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4516085888270554324}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 170, y: 170}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &6333040418921033717
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6792101916662486056}
+  m_CullTransparentMesh: 1
+--- !u!114 &3901563471747875429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6792101916662486056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8636171174978863712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1435605474601903375}
+  - component: {fileID: 1594109020779790164}
+  - component: {fileID: 3247763316991389687}
+  m_Layer: 5
+  m_Name: SpeakerBackgroundWhite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1435605474601903375
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636171174978863712}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4516085888270554324}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 170, y: 170}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &1594109020779790164
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636171174978863712}
+  m_CullTransparentMesh: 1
+--- !u!114 &3247763316991389687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636171174978863712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

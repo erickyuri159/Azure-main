@@ -37,10 +37,13 @@ public class PlayerMove : MonoBehaviour
         Time.timeScale = 1;
         if (!PauseMenu.isPaused)
         {
-           
+          
 
             if (!Level.GetIsLevelUpTime())
             {
+
+
+
                 direcaoPlayer = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
                 animator.SetFloat("horizontal", direcaoPlayer.x);
                 animator.SetFloat("vertical", direcaoPlayer.y);
@@ -71,21 +74,23 @@ public class PlayerMove : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
-            direcaoMause = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            //direcaoMause = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
             // pegar posição mause
             Vector3 destino = Input.mousePosition;
 
-
+           
             //transformar posição tela 
             Vector3 PosTela = Camera.main.ScreenToWorldPoint(destino);
             Vector3 PosTelaCorrigida = new Vector3(PosTela.x, PosTela.y + 2.5f, 0);
 
-            direcaoPlayer = PosTelaCorrigida - transform.position;
+            direcaoMause = PosTelaCorrigida - transform.position;
 
-            animator.SetFloat("horizontal", Mathf.Clamp(direcaoPlayer.x, -1, 1));
-            animator.SetFloat("vertical", Mathf.Clamp(direcaoPlayer.y, -1, 1));
-            animator.SetFloat("velocidade", direcaoPlayer.sqrMagnitude);
+            Debug.Log(direcaoMause);
+
+            animator.SetFloat("horizontal", Mathf.Clamp(direcaoMause.x, -1, 1));
+            animator.SetFloat("vertical", Mathf.Clamp(direcaoMause.y, -1, 1));
+            animator.SetFloat("velocidade", direcaoMause.sqrMagnitude);
 
 
             // mover

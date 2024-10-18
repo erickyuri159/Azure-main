@@ -98,7 +98,6 @@ GameObject:
   - component: {fileID: 2083591605165541780}
   - component: {fileID: 9004983834083981451}
   - component: {fileID: 32444329189676545}
-  - component: {fileID: 4144857727835334369}
   m_Layer: 6
   m_Name: Boss1 1
   m_TagString: Untagged
@@ -299,33 +298,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5ba5b424c8a824db9ad698b4999f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4144857727835334369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7238664675495757188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_ComponentVersion: 1
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 00000000
-  m_ShapePath:
-  - {x: -0.75, y: -0.75, z: 0}
-  - {x: -0.75, y: 0.75, z: 0}
-  - {x: 0.75, y: 0.75, z: 0}
-  - {x: 0.75, y: -0.75, z: 0}
-  m_ShapePathHash: 0
-  m_Mesh: {fileID: 0}
-  m_InstanceId: -15970
-  m_LocalBounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.75, y: 0.75, z: 0}

@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Heroi
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -18,15 +18,17 @@ AnimationClip:
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
     - time: 0
       value: {fileID: 1377907943, guid: 7d4f39c6e8ea2d64c9a35a70e2cbc2d8, type: 3}
-    - time: 1
+    - time: 0.33333334
       value: {fileID: 1377907943, guid: 7d4f39c6e8ea2d64c9a35a70e2cbc2d8, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
+    flags: 2
   m_SampleRate: 3
   m_WrapMode: 0
   m_Bounds:
@@ -41,6 +43,8 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: 1377907943, guid: 7d4f39c6e8ea2d64c9a35a70e2cbc2d8, type: 3}
     - {fileID: 1377907943, guid: 7d4f39c6e8ea2d64c9a35a70e2cbc2d8, type: 3}
@@ -49,7 +53,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.3333334
+    m_StopTime: 0.6666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
