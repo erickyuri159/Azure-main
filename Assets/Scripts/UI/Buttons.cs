@@ -16,6 +16,14 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("noGame");
     }
+    public void ToDialogueScene()
+    {
+        SceneManager.LoadScene("dialogo2");
+    }
+    public void ToDialogueScene2()
+    {
+        SceneManager.LoadScene("dialogo");
+    }
 
     public void Pause()
     {

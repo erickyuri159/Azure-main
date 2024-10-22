@@ -668,7 +668,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b7b9e6b739c1c1544889e5c430e51cab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueNpc:
   - Seja bem vindo aventureiro!
-  - Acredito que caiu de paraquedas nesse jogo
+  - Acredito que caiu de catapulta neste jogo
   - espero que nos ajude a derrotar a cada monstro que invadiu o castelo
   - acredito que vai ser dificil mais vamos la!
   - "A cada mostro morto tem chance de cair EX e voc\xEA ganhar levels"

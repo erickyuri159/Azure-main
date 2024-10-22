@@ -3810,6 +3810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154351784}
   - component: {fileID: 1154351783}
+  - component: {fileID: 1154351785}
   m_Layer: 0
   m_Name: video
   m_TagString: Untagged
@@ -3837,7 +3838,7 @@ VideoPlayer:
   m_AspectRatio: 4
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
+  m_PlaybackSpeed: 0.64
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
@@ -3868,6 +3869,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1154351785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154351782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7076bf3490b9b184cbb1244479cef721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: Dialogo2
 --- !u!1 &1160206546
 GameObject:
   m_ObjectHideFlags: 0
