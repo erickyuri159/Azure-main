@@ -15,7 +15,7 @@ public class Imã : MonoBehaviour
             if (rbcrystal != null)
             {
                 Vector2 direção = transform.position - other.transform.position;
-                rbcrystal.velocity = direção.normalized * forçaAtração;
+                rbcrystal.linearVelocity = direção.normalized * forçaAtração;
             }
         }
         if (other.CompareTag("moeda"))
@@ -26,7 +26,7 @@ public class Imã : MonoBehaviour
             if (rbMoeda != null)
             {
                 Vector2 direção = transform.position - other.transform.position;
-                rbMoeda.velocity = direção.normalized * forçaAtração;
+                rbMoeda.linearVelocity = direção.normalized * forçaAtração;
             }
         }
     }
