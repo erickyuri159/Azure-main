@@ -3,7 +3,7 @@ guid: cc6e0ef3b00f5bf46b91b6356bd2bcbe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -67,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +93,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,7 +106,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,8 +119,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,13 +139,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 55
+        y: 529
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -160,13 +161,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 512
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 247
+        y: 529
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -181,13 +183,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 439
+        y: 529
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -202,13 +205,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 576
-        y: 512
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 529
+        width: 82
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -223,13 +227,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 823
+        y: 529
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -244,13 +249,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 960
-        y: 512
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1015
+        y: 529
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -265,13 +271,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 400
+        width: 72
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -286,13 +293,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 253
+        y: 400
+        width: 72
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -307,13 +315,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 445
+        y: 400
+        width: 72
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -328,13 +337,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_9
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 637
+        y: 400
+        width: 75
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -349,13 +359,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_10
       rect:
         serializedVersion: 2
-        x: 768
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 823
+        y: 400
+        width: 86
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -370,13 +381,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_11
       rect:
         serializedVersion: 2
-        x: 960
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1009
+        y: 400
+        width: 96
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -391,13 +403,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_12
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1201
+        y: 400
+        width: 96
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -412,13 +425,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_13
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1399
+        y: 400
+        width: 86
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -433,13 +447,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_14
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1597
+        y: 400
+        width: 75
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -454,13 +469,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_15
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 384
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1789
+        y: 400
+        width: 72
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -475,13 +491,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 55
+        y: 273
+        width: 81
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -496,13 +513,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_17
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 244
+        y: 273
+        width: 93
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -517,13 +535,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_18
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 435
+        y: 273
+        width: 94
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -538,13 +557,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_19
       rect:
         serializedVersion: 2
-        x: 576
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 631
+        y: 273
+        width: 95
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -559,13 +579,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_20
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 823
+        y: 273
+        width: 96
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -580,13 +601,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_21
       rect:
         serializedVersion: 2
-        x: 960
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1015
+        y: 273
+        width: 96
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -601,13 +623,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_22
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1156
+        y: 273
+        width: 138
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -622,13 +645,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_23
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1345
+        y: 273
+        width: 141
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -643,13 +667,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_24
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1537
+        y: 273
+        width: 141
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -664,13 +689,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_25
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1770
+        y: 273
+        width: 85
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -685,13 +711,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_26
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1986
+        y: 273
+        width: 52
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -706,13 +733,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_27
       rect:
         serializedVersion: 2
-        x: 2112
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2178
+        y: 273
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -727,13 +755,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_28
       rect:
         serializedVersion: 2
-        x: 2304
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2358
+        y: 273
+        width: 73
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -748,13 +777,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_29
       rect:
         serializedVersion: 2
-        x: 2496
-        y: 256
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2551
+        y: 273
+        width: 81
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -769,13 +799,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 55
+        y: 145
+        width: 81
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -790,13 +821,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_31
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 250
+        y: 145
+        width: 78
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -811,13 +843,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_32
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 447
+        y: 145
+        width: 78
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -832,13 +865,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_33
       rect:
         serializedVersion: 2
-        x: 576
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 145
+        width: 78
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -853,13 +887,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_34
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 831
+        y: 145
+        width: 78
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -874,13 +909,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_35
       rect:
         serializedVersion: 2
-        x: 960
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1018
+        y: 145
+        width: 78
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -895,13 +931,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_36
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 128
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1207
+        y: 145
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -916,13 +953,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 55
+        y: 16
+        width: 81
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -937,13 +975,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_38
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 250
+        y: 16
+        width: 72
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -958,13 +997,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_39
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 444
+        y: 16
+        width: 69
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -979,13 +1019,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_40
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 637
+        y: 16
+        width: 72
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1000,13 +1041,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_41
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 817
+        y: 16
+        width: 105
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1021,13 +1063,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_42
       rect:
         serializedVersion: 2
-        x: 960
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 999
+        y: 16
+        width: 118
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1042,13 +1085,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_43
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1191
+        y: 16
+        width: 120
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1063,13 +1107,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_44
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1384
+        y: 16
+        width: 114
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1084,13 +1129,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_45
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1624
+        y: 79
+        width: 21
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1105,13 +1151,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_46
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1657
+        y: 76
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1126,13 +1173,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_47
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1816
+        y: 79
+        width: 21
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1147,13 +1195,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_48
       rect:
         serializedVersion: 2
-        x: 2112
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1849
+        y: 76
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1168,13 +1217,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_49
       rect:
         serializedVersion: 2
-        x: 2304
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2008
+        y: 75
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1189,13 +1239,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_50
       rect:
         serializedVersion: 2
-        x: 2496
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2041
+        y: 70
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1210,13 +1261,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_51
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1545
+        y: 16
+        width: 165
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1231,13 +1283,14 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_52
       rect:
         serializedVersion: 2
-        x: 2880
-        y: 0
-        width: 192
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1581
+        y: 55
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1248,7 +1301,536 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 55
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12afcdff032b33546a78e7aefc4b421a
+      internalID: 137123740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 55
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881fa9b6c98a0e47beadd431471a09d
+      internalID: 1837879749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 36
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d023bdc687288438dd4cac1ec6815c
+      internalID: -896950021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 55
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60fae66ca955c24b86feeacf4cd836b
+      internalID: -924531661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 51
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1356bba7435b5a43882d59b7e0136ab
+      internalID: 244666246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 31
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6228e46bc0d168449a8c76572939988d
+      internalID: 1559262629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 51
+        width: 23
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629b56350e2da7046805e7fcc69d2fa1
+      internalID: 1037695260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 57
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25e9724d28fb9d479219f8bd90a4a7c
+      internalID: 1700144985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 52
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7765afb0e47424d969219fe197dd43
+      internalID: 441894964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 16
+        width: 184
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a97929dc28ed44b0c8e56a6c8e60a
+      internalID: 2123890722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 16
+        width: 184
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22194bc0bcb2fdd49a98fc3d49b7bcfe
+      internalID: -1093757424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 33
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32b10ef0ea27749a4f1f1b1ab95cd6
+      internalID: 331872675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 33
+        width: 23
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e86e2523bb1374da3702f9aed76350
+      internalID: 195047484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 16
+        width: 50
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1422f32fa4b43c438132aa7c67f21fd
+      internalID: 1211435378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 16
+        width: 109
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722dbf5f4b9d2244d854a4ac885fba83
+      internalID: -1588679490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 16
+        width: 48
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a21c3593dccdd048848f710709d9849
+      internalID: 672902448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 16
+        width: 84
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670fd7c2922029f4b92f3ccac57e32cf
+      internalID: 1153371244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 16
+        width: 40
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e61b81ff2a3f844789ac70b03392770
+      internalID: 135256616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 16
+        width: 46
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1c456eeb28fb94c9841b0d657761a8
+      internalID: -574633837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 15
+        width: 106
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24086f64369375544b92881b8810d0c1
+      internalID: 402939797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 16
+        width: 22
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9728ba54bc2eea4a936cda1bc8c9eaa
+      internalID: -2142976198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 13
+        width: 79
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b697dfa7aa072b54d93243c377c6e9e3
+      internalID: -693159013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 16
+        width: 22
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d396eb4f0b4dbb478f5632b3f699792
+      internalID: 1634647034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost_guardian_free_192x128_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 13
+        width: 79
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981dcbc06194c7b4688ecec806231033
+      internalID: 1129772269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -1258,6 +1840,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       frost_guardian_free_192x128_SpriteSheet_0: 2138206736
       frost_guardian_free_192x128_SpriteSheet_1: -1792673857
@@ -1308,8 +1892,32 @@ TextureImporter:
       frost_guardian_free_192x128_SpriteSheet_50: 212444177
       frost_guardian_free_192x128_SpriteSheet_51: -38771176
       frost_guardian_free_192x128_SpriteSheet_52: 536013598
+      frost_guardian_free_192x128_SpriteSheet_53: 137123740
+      frost_guardian_free_192x128_SpriteSheet_54: 1837879749
+      frost_guardian_free_192x128_SpriteSheet_55: -896950021
+      frost_guardian_free_192x128_SpriteSheet_56: -924531661
+      frost_guardian_free_192x128_SpriteSheet_57: 244666246
+      frost_guardian_free_192x128_SpriteSheet_58: 1559262629
+      frost_guardian_free_192x128_SpriteSheet_59: 1037695260
       frost_guardian_free_192x128_SpriteSheet_6: 1598788554
+      frost_guardian_free_192x128_SpriteSheet_60: 1700144985
+      frost_guardian_free_192x128_SpriteSheet_61: 441894964
+      frost_guardian_free_192x128_SpriteSheet_62: 2123890722
+      frost_guardian_free_192x128_SpriteSheet_63: -1093757424
+      frost_guardian_free_192x128_SpriteSheet_64: 331872675
+      frost_guardian_free_192x128_SpriteSheet_65: 195047484
+      frost_guardian_free_192x128_SpriteSheet_66: 1211435378
+      frost_guardian_free_192x128_SpriteSheet_67: -1588679490
+      frost_guardian_free_192x128_SpriteSheet_68: 672902448
+      frost_guardian_free_192x128_SpriteSheet_69: 1153371244
       frost_guardian_free_192x128_SpriteSheet_7: -193602089
+      frost_guardian_free_192x128_SpriteSheet_70: 135256616
+      frost_guardian_free_192x128_SpriteSheet_71: -574633837
+      frost_guardian_free_192x128_SpriteSheet_72: 402939797
+      frost_guardian_free_192x128_SpriteSheet_73: -2142976198
+      frost_guardian_free_192x128_SpriteSheet_74: -693159013
+      frost_guardian_free_192x128_SpriteSheet_75: 1634647034
+      frost_guardian_free_192x128_SpriteSheet_76: 1129772269
       frost_guardian_free_192x128_SpriteSheet_8: -1479836080
       frost_guardian_free_192x128_SpriteSheet_9: -1558907004
   mipmapLimitGroupName: 
