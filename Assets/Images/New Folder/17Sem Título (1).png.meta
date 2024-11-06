@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f293540f1a52b65488d9275bcdf6843d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5302926434978804479
+    second: "17 Sem T\xEDtulo (1)_0"
+  - first:
+      213: -5075705452626740160
+    second: "17 Sem T\xEDtulo (1)_1"
+  - first:
+      213: -5269305220110212933
+    second: "17 Sem T\xEDtulo (1)_2"
+  - first:
+      213: 4069794905231794031
+    second: "17 Sem T\xEDtulo (1)_3"
+  - first:
+      213: -4206747410501991726
+    second: "17 Sem T\xEDtulo (1)_4"
+  - first:
+      213: -8822394394758677723
+    second: "17 Sem T\xEDtulo (1)_5"
+  - first:
+      213: 8321220450364207702
+    second: "17 Sem T\xEDtulo (1)_6"
+  - first:
+      213: -7263443483719481880
+    second: "17 Sem T\xEDtulo (1)_7"
+  - first:
+      213: -3955930215966266036
+    second: "17 Sem T\xEDtulo (1)_8"
+  - first:
+      213: -3665922212924833728
+    second: "17 Sem T\xEDtulo (1)_9"
+  - first:
+      213: -674088376083704719
+    second: "17 Sem T\xEDtulo (1)_10"
+  - first:
+      213: 9170044085295290558
+    second: "17 Sem T\xEDtulo (1)_11"
+  - first:
+      213: -1299171296339411250
+    second: "17 Sem T\xEDtulo (1)_12"
+  - first:
+      213: -6872612941857273991
+    second: "17 Sem T\xEDtulo (1)_13"
+  - first:
+      213: 7692867287254471333
+    second: "17 Sem T\xEDtulo (1)_14"
+  - first:
+      213: -5863502250311765638
+    second: "17 Sem T\xEDtulo (1)_15"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2307
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b0fa1f77c79940800000000000000
+      internalID: 5302926434978804479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 2305
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c7ba778c87f89b0800000000000000
+      internalID: -5075705452626740160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 2306
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0283ef1daafd6b0800000000000000
+      internalID: -5269305220110212933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 2307
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f190357e0da7830800000000000000
+      internalID: 4069794905231794031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1637
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d20c39b481ae95c0800000000000000
+      internalID: -4206747410501991726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1642
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bf2008a0f809580800000000000000
+      internalID: -8822394394758677723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1645
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652bca179e9ea7370800000000000000
+      internalID: 8321220450364207702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_7"
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 1649
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e546ca82a0133b90800000000000000
+      internalID: -7263443483719481880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 990
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da8119d66b919c0800000000000000
+      internalID: -3955930215966266036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 994
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040c6649b27002dc0800000000000000
+      internalID: -3665922212924833728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_10"
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 993
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1749f44813825a6f0800000000000000
+      internalID: -674088376083704719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_11"
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 996
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb892b6b28a824f70800000000000000
+      internalID: 9170044085295290558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 350
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece3e4bd69a68fde0800000000000000
+      internalID: -1299171296339411250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 352
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97748d921f29f90a0800000000000000
+      internalID: -6872612941857273991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_14"
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 349
+        width: 642
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a296090a0e82ca60800000000000000
+      internalID: 7692867287254471333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "17 Sem T\xEDtulo (1)_15"
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 351
+        width: 642
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71b67ef4c7a0aea0800000000000000
+      internalID: -5863502250311765638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "17 Sem T\xEDtulo (1)_0": 5302926434978804479
+      "17 Sem T\xEDtulo (1)_1": -5075705452626740160
+      "17 Sem T\xEDtulo (1)_10": -674088376083704719
+      "17 Sem T\xEDtulo (1)_11": 9170044085295290558
+      "17 Sem T\xEDtulo (1)_12": -1299171296339411250
+      "17 Sem T\xEDtulo (1)_13": -6872612941857273991
+      "17 Sem T\xEDtulo (1)_14": 7692867287254471333
+      "17 Sem T\xEDtulo (1)_15": -5863502250311765638
+      "17 Sem T\xEDtulo (1)_2": -5269305220110212933
+      "17 Sem T\xEDtulo (1)_3": 4069794905231794031
+      "17 Sem T\xEDtulo (1)_4": -4206747410501991726
+      "17 Sem T\xEDtulo (1)_5": -8822394394758677723
+      "17 Sem T\xEDtulo (1)_6": 8321220450364207702
+      "17 Sem T\xEDtulo (1)_7": -7263443483719481880
+      "17 Sem T\xEDtulo (1)_8": -3955930215966266036
+      "17 Sem T\xEDtulo (1)_9": -3665922212924833728
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

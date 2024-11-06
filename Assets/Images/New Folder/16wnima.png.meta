@@ -1,0 +1,2197 @@
+fileFormatVersion: 2
+guid: 3a0aa4b42ad8efe42ae9380580ce0b58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 738550457207304761
+    second: 16 wnima_0
+  - first:
+      213: 1042794133817976575
+    second: 16 wnima_1
+  - first:
+      213: 5033483810032199519
+    second: 16 wnima_2
+  - first:
+      213: -934917271506648591
+    second: 16 wnima_3
+  - first:
+      213: -6942342534134115294
+    second: 16 wnima_4
+  - first:
+      213: 3624685385690108025
+    second: 16 wnima_5
+  - first:
+      213: 645554867426114739
+    second: 16 wnima_6
+  - first:
+      213: -2339113535773879519
+    second: 16 wnima_7
+  - first:
+      213: 2526164310340250302
+    second: 16 wnima_8
+  - first:
+      213: 1410103622697395168
+    second: 16 wnima_9
+  - first:
+      213: 1564383385298378214
+    second: 16 wnima_10
+  - first:
+      213: 810253264713756589
+    second: 16 wnima_11
+  - first:
+      213: 8873299029312076914
+    second: 16 wnima_12
+  - first:
+      213: 4596212003345307585
+    second: 16 wnima_13
+  - first:
+      213: 5120518296272273924
+    second: 16 wnima_14
+  - first:
+      213: 3143170263692263689
+    second: 16 wnima_15
+  - first:
+      213: 4598031990031117208
+    second: 16 wnima_16
+  - first:
+      213: 4500082715309249462
+    second: 16 wnima_17
+  - first:
+      213: 1008432890751845281
+    second: 16 wnima_18
+  - first:
+      213: 4521863241575863011
+    second: 16 wnima_19
+  - first:
+      213: -2752211236202394606
+    second: 16 wnima_20
+  - first:
+      213: -5910067425773174286
+    second: 16 wnima_21
+  - first:
+      213: -7637015532207567329
+    second: 16 wnima_22
+  - first:
+      213: -8016540387339027529
+    second: 16 wnima_23
+  - first:
+      213: -8695328881544351797
+    second: 16 wnima_24
+  - first:
+      213: -5424978723303571102
+    second: 16 wnima_25
+  - first:
+      213: -5577222859650839670
+    second: 16 wnima_26
+  - first:
+      213: -1233588878576573304
+    second: 16 wnima_27
+  - first:
+      213: -5493374582123054510
+    second: 16 wnima_28
+  - first:
+      213: 2689520996434416263
+    second: 16 wnima_29
+  - first:
+      213: -62716965867295894
+    second: 16 wnima_30
+  - first:
+      213: -4707489614674349148
+    second: 16 wnima_31
+  - first:
+      213: 3992401545168104192
+    second: 16 wnima_32
+  - first:
+      213: 8813001612541801462
+    second: 16 wnima_33
+  - first:
+      213: -6707469747316042986
+    second: 16 wnima_34
+  - first:
+      213: 8143639804115407775
+    second: 16 wnima_35
+  - first:
+      213: 8147826918361592455
+    second: 16 wnima_36
+  - first:
+      213: 870534830165838726
+    second: 16 wnima_37
+  - first:
+      213: 7871414714248122264
+    second: 16 wnima_38
+  - first:
+      213: 8170359655162872432
+    second: 16 wnima_39
+  - first:
+      213: -6129603020405774333
+    second: 16 wnima_40
+  - first:
+      213: 2948733301004387383
+    second: 16 wnima_41
+  - first:
+      213: -5362586678353961949
+    second: 16 wnima_42
+  - first:
+      213: 2486780448299888384
+    second: 16 wnima_43
+  - first:
+      213: -8745223407044716160
+    second: 16 wnima_44
+  - first:
+      213: -5287720146586182730
+    second: 16 wnima_45
+  - first:
+      213: -4168126188261293819
+    second: 16 wnima_46
+  - first:
+      213: -7095184462712690822
+    second: 16 wnima_47
+  - first:
+      213: -5380818628327002554
+    second: 16 wnima_48
+  - first:
+      213: 7498605447366901350
+    second: 16 wnima_49
+  - first:
+      213: -6423567420936565214
+    second: 16 wnima_50
+  - first:
+      213: 4443292788281310660
+    second: 16 wnima_51
+  - first:
+      213: 739361363023345107
+    second: 16 wnima_52
+  - first:
+      213: -909051708850400776
+    second: 16 wnima_53
+  - first:
+      213: 4020720002242511930
+    second: 16 wnima_54
+  - first:
+      213: 6817672131148947151
+    second: 16 wnima_55
+  - first:
+      213: 6952729770560730304
+    second: 16 wnima_56
+  - first:
+      213: 8069791541807466194
+    second: 16 wnima_57
+  - first:
+      213: -7693287131316480025
+    second: 16 wnima_58
+  - first:
+      213: -4142900017200648315
+    second: 16 wnima_59
+  - first:
+      213: -3811834146050637614
+    second: 16 wnima_60
+  - first:
+      213: 9025392576738376714
+    second: 16 wnima_61
+  - first:
+      213: 3295260636569931799
+    second: 16 wnima_62
+  - first:
+      213: -2097577002428982967
+    second: 16 wnima_63
+  - first:
+      213: -1290282618489545958
+    second: 16 wnima_64
+  - first:
+      213: 3251230392857093868
+    second: 16 wnima_65
+  - first:
+      213: -7088250289280451418
+    second: 16 wnima_66
+  - first:
+      213: 2380093121565277713
+    second: 16 wnima_67
+  - first:
+      213: 8127000410638582498
+    second: 16 wnima_68
+  - first:
+      213: -3311467268162195101
+    second: 16 wnima_69
+  - first:
+      213: -5438677047252453585
+    second: 16 wnima_70
+  - first:
+      213: 4433369886505832566
+    second: 16 wnima_71
+  - first:
+      213: 6650129775366607808
+    second: 16 wnima_72
+  - first:
+      213: 2701141076244712298
+    second: 16 wnima_73
+  - first:
+      213: -6007474752020121403
+    second: 16 wnima_74
+  - first:
+      213: 1388690257322001207
+    second: 16 wnima_75
+  - first:
+      213: -3773798311329038525
+    second: 16 wnima_76
+  - first:
+      213: 4663939142649635504
+    second: 16 wnima_77
+  - first:
+      213: 5972514905893261874
+    second: 16 wnima_78
+  - first:
+      213: -6957577750977604139
+    second: 16 wnima_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16 wnima_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 569
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9323b825abbdf3a00800000000000000
+      internalID: 738550457207304761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 569
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6e4106dbfb87e00800000000000000
+      internalID: 1042794133817976575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 569
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5726af4bd68ad540800000000000000
+      internalID: 5033483810032199519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 569
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f10879e1b18603f0800000000000000
+      internalID: -934917271506648591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 569
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224d9df4f38d7af90800000000000000
+      internalID: -6942342534134115294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 569
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970db9467287d4230800000000000000
+      internalID: 3624685385690108025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 569
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc35fb4bb875f800800000000000000
+      internalID: 645554867426114739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 569
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123d3e2e1acc98fd0800000000000000
+      internalID: -2339113535773879519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 569
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaa91a5e0dbe0320800000000000000
+      internalID: 2526164310340250302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 569
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3ae5716c1b19310800000000000000
+      internalID: 1410103622697395168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9b35866ec5b510800000000000000
+      internalID: 1564383385298378214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 497
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf2d552d099e3b00800000000000000
+      internalID: 810253264713756589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 497
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cf6f3547a442b70800000000000000
+      internalID: 8873299029312076914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 497
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c798cb177609cf30800000000000000
+      internalID: 4596212003345307585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 497
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4028233c24cbf0740800000000000000
+      internalID: 5120518296272273924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 497
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901c2fb93b8ce9b20800000000000000
+      internalID: 3143170263692263689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 497
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89befa7cbbd7fcf30800000000000000
+      internalID: 4598031990031117208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_17
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 497
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b312e91361837e30800000000000000
+      internalID: 4500082715309249462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_18
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 497
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a385190f5caefd00800000000000000
+      internalID: 1008432890751845281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_19
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 497
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2960d09a2e0ce30800000000000000
+      internalID: 4521863241575863011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c4157667e2ec9d0800000000000000
+      internalID: -2752211236202394606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 425
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1ce283df83bfda0800000000000000
+      internalID: -5910067425773174286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 425
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e80aa06ded30690800000000000000
+      internalID: -7637015532207567329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 425
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbb51dbdf68fb090800000000000000
+      internalID: -8016540387339027529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_24
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 425
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfaa5ab37cf35780800000000000000
+      internalID: -8695328881544351797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 425
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261407b089a96b4b0800000000000000
+      internalID: -5424978723303571102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 425
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bc259cb59b992b0800000000000000
+      internalID: -5577222859650839670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_27
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 425
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8842295637961eee0800000000000000
+      internalID: -1233588878576573304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_28
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 425
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a35663cec93c3b0800000000000000
+      internalID: -5493374582123054510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_29
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 425
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7829d68b819135520800000000000000
+      internalID: 2689520996434416263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6be618704f212ff0800000000000000
+      internalID: -62716965867295894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3be750323abaeb0800000000000000
+      internalID: -4707489614674349148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 351
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b277c7d0cd76730800000000000000
+      internalID: 3992401545168104192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_33
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3bf78f5421e4a70800000000000000
+      internalID: 8813001612541801462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 351
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6135c817dc74ae2a0800000000000000
+      internalID: -6707469747316042986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_35
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 351
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93d7074145040170800000000000000
+      internalID: 8143639804115407775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_36
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 351
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782fe48c965e21170800000000000000
+      internalID: 8147826918361592455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_37
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 351
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bc3a4d0d2c41c00800000000000000
+      internalID: 870534830165838726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_38
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 351
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fca826af1ec3d60800000000000000
+      internalID: 7871414714248122264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_39
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 351
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0728a2561d2f26170800000000000000
+      internalID: 8170359655162872432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3086d8a67864feaa0800000000000000
+      internalID: -6129603020405774333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 281
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7344bbf60510ce820800000000000000
+      internalID: 2948733301004387383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_42
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 281
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c587704d34495b0800000000000000
+      internalID: -5362586678353961949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_43
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 281
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f2d4764a1d28220800000000000000
+      internalID: 2486780448299888384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_44
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 281
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0891bad35a9b2a680800000000000000
+      internalID: -8745223407044716160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_45
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 281
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbdd0fca8e3e96b0800000000000000
+      internalID: -5287720146586182730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 281
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501cea1c057d726c0800000000000000
+      internalID: -4168126188261293819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_47
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 281
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77a324b257d88d90800000000000000
+      internalID: -7095184462712690822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_48
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 281
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ea3c167fd7355b0800000000000000
+      internalID: -5380818628327002554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_49
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 281
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66efc11dce5601860800000000000000
+      internalID: 7498605447366901350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ecd44d677ead6a0800000000000000
+      internalID: -6423567420936565214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 209
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdff86df3fb9ad30800000000000000
+      internalID: 4443292788281310660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 209
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5b7ab0e3db24a00800000000000000
+      internalID: 739361363023345107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_53
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 209
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1928389466263f0800000000000000
+      internalID: -909051708850400776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 209
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3409f21a877cc730800000000000000
+      internalID: 4020720002242511930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_55
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 209
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce96348eac3d9e50800000000000000
+      internalID: 6817672131148947151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_56
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 209
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c43e81a3ee0d7060800000000000000
+      internalID: 6952729770560730304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_57
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 209
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6c2e4d6a8adff60800000000000000
+      internalID: 8069791541807466194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_58
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 209
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e71cc66d14fb3590800000000000000
+      internalID: -7693287131316480025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_59
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 209
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fabc662667186c0800000000000000
+      internalID: -4142900017200648315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d082f54a05a91bc0800000000000000
+      internalID: -3811834146050637614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 137
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c30fedab2a04d70800000000000000
+      internalID: 9025392576738376714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 137
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7101415071e1bbd20800000000000000
+      internalID: 3295260636569931799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_63
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 137
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949113964d8e3e2e0800000000000000
+      internalID: -2097577002428982967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_64
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 137
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bd1117bcef71ee0800000000000000
+      internalID: -1290282618489545958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_65
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 137
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6633901d0be1d20800000000000000
+      internalID: 3251230392857093868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_66
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 137
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acf064cae971ad90800000000000000
+      internalID: -7088250289280451418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_67
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 137
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ebf33751ac70120800000000000000
+      internalID: 2380093121565277713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_68
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 137
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2019590d7e8c070800000000000000
+      internalID: 8127000410638582498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_69
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 137
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361fbd3801e4b02d0800000000000000
+      internalID: -3311467268162195101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2772767a00f584b0800000000000000
+      internalID: -5438677047252453585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_71
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 63
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670181b3c6e768d30800000000000000
+      internalID: 4433369886505832566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_72
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 63
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c399fafbc10a4c50800000000000000
+      internalID: 6650129775366607808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_73
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 63
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b48c16f716c7520800000000000000
+      internalID: 2701141076244712298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 63
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c876b0ca8921aca0800000000000000
+      internalID: -6007474752020121403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_75
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 63
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73349b27e6e954310800000000000000
+      internalID: 1388690257322001207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_76
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 63
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f73472e66c0abc0800000000000000
+      internalID: -3773798311329038525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 63
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2ebab80f3a9b040800000000000000
+      internalID: 4663939142649635504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_78
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 63
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2325e75c9a2a2e250800000000000000
+      internalID: 5972514905893261874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16 wnima_79
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 63
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d591d7f5e7b17f90800000000000000
+      internalID: -6957577750977604139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      16 wnima_0: 738550457207304761
+      16 wnima_1: 1042794133817976575
+      16 wnima_10: 1564383385298378214
+      16 wnima_11: 810253264713756589
+      16 wnima_12: 8873299029312076914
+      16 wnima_13: 4596212003345307585
+      16 wnima_14: 5120518296272273924
+      16 wnima_15: 3143170263692263689
+      16 wnima_16: 4598031990031117208
+      16 wnima_17: 4500082715309249462
+      16 wnima_18: 1008432890751845281
+      16 wnima_19: 4521863241575863011
+      16 wnima_2: 5033483810032199519
+      16 wnima_20: -2752211236202394606
+      16 wnima_21: -5910067425773174286
+      16 wnima_22: -7637015532207567329
+      16 wnima_23: -8016540387339027529
+      16 wnima_24: -8695328881544351797
+      16 wnima_25: -5424978723303571102
+      16 wnima_26: -5577222859650839670
+      16 wnima_27: -1233588878576573304
+      16 wnima_28: -5493374582123054510
+      16 wnima_29: 2689520996434416263
+      16 wnima_3: -934917271506648591
+      16 wnima_30: -62716965867295894
+      16 wnima_31: -4707489614674349148
+      16 wnima_32: 3992401545168104192
+      16 wnima_33: 8813001612541801462
+      16 wnima_34: -6707469747316042986
+      16 wnima_35: 8143639804115407775
+      16 wnima_36: 8147826918361592455
+      16 wnima_37: 870534830165838726
+      16 wnima_38: 7871414714248122264
+      16 wnima_39: 8170359655162872432
+      16 wnima_4: -6942342534134115294
+      16 wnima_40: -6129603020405774333
+      16 wnima_41: 2948733301004387383
+      16 wnima_42: -5362586678353961949
+      16 wnima_43: 2486780448299888384
+      16 wnima_44: -8745223407044716160
+      16 wnima_45: -5287720146586182730
+      16 wnima_46: -4168126188261293819
+      16 wnima_47: -7095184462712690822
+      16 wnima_48: -5380818628327002554
+      16 wnima_49: 7498605447366901350
+      16 wnima_5: 3624685385690108025
+      16 wnima_50: -6423567420936565214
+      16 wnima_51: 4443292788281310660
+      16 wnima_52: 739361363023345107
+      16 wnima_53: -909051708850400776
+      16 wnima_54: 4020720002242511930
+      16 wnima_55: 6817672131148947151
+      16 wnima_56: 6952729770560730304
+      16 wnima_57: 8069791541807466194
+      16 wnima_58: -7693287131316480025
+      16 wnima_59: -4142900017200648315
+      16 wnima_6: 645554867426114739
+      16 wnima_60: -3811834146050637614
+      16 wnima_61: 9025392576738376714
+      16 wnima_62: 3295260636569931799
+      16 wnima_63: -2097577002428982967
+      16 wnima_64: -1290282618489545958
+      16 wnima_65: 3251230392857093868
+      16 wnima_66: -7088250289280451418
+      16 wnima_67: 2380093121565277713
+      16 wnima_68: 8127000410638582498
+      16 wnima_69: -3311467268162195101
+      16 wnima_7: -2339113535773879519
+      16 wnima_70: -5438677047252453585
+      16 wnima_71: 4433369886505832566
+      16 wnima_72: 6650129775366607808
+      16 wnima_73: 2701141076244712298
+      16 wnima_74: -6007474752020121403
+      16 wnima_75: 1388690257322001207
+      16 wnima_76: -3773798311329038525
+      16 wnima_77: 4663939142649635504
+      16 wnima_78: 5972514905893261874
+      16 wnima_79: -6957577750977604139
+      16 wnima_8: 2526164310340250302
+      16 wnima_9: 1410103622697395168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
