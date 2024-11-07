@@ -15,16 +15,14 @@ public class ControladorJogo : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetFloat("moeda", 0);
+            moedas = 0; // Inicializa a variável localmente
+           PlayerPrefs.SetFloat("moeda", moedas);
         }
 
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     public void GanhaMoedas(float Novamoedas)
     {
         moedas = PlayerPrefs.GetFloat("moeda");

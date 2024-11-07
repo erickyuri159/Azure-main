@@ -3,13 +3,16 @@ using UnityEngine.UI;
 
 public class Store : MonoBehaviour
 {
-    public int playerCurrency = 100; // Moeda inicial do jogador
+    private ControladorJogo CJ;
     public Text currencyText;
     public Button buyMagnetUpgradeButton;
     public Text warningText; // Texto para exibir o aviso
+    
+
 
     void Start()
     {
+        CJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<ControladorJogo>();
         UpdateCurrencyText();
         buyMagnetUpgradeButton.onClick.AddListener(BuyMagnetUpgrade);
         warningText.gameObject.SetActive(false); // Inicialmente escondido
@@ -17,16 +20,16 @@ public class Store : MonoBehaviour
 
     void UpdateCurrencyText()
     {
-        currencyText.text = "Moeda: " + playerCurrency;
+        currencyText.text = "Moeda: " + CJ.moedas.ToString();
     }
 
     public void BuyMagnetUpgrade()
     {
         int magnetUpgradeCost = 50;
 
-        if (playerCurrency >= magnetUpgradeCost)
+        if (CJ.moedas >= magnetUpgradeCost)
         {
-            playerCurrency -= magnetUpgradeCost;
+            CJ.moedas -= magnetUpgradeCost;
             UpdateCurrencyText();
             warningText.gameObject.SetActive(false); // Esconde o aviso se a compra for bem-sucedida
 
