@@ -277,7 +277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025dbc3a0397d3f42b636f72146589fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCurrency: 100
   currencyText: {fileID: 631486359}
   buyMagnetUpgradeButton: {fileID: 1160206548}
   warningText: {fileID: 921355716}
@@ -3198,7 +3197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &921355715
 RectTransform:
   m_ObjectHideFlags: 0
