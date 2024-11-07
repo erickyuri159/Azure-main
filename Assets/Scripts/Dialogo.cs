@@ -23,15 +23,23 @@ public class Dialogo : MonoBehaviour
     public bool startDialogue = true;
     public float textSpeed = 0.04f; // Velocidade do texto
     public Button startGameButton; // Referência ao botão de iniciar o jogo
-
-
+    public Button skipButton; // Referência ao botão de pular diálogo
 
     void Start()
     {
         startGameButton.gameObject.SetActive(false);// Esconde o botão no início
-        StartDialogue();
+        skipButton.onClick.AddListener(SkipDialogue);
 
+        if (PlayerPrefs.GetInt("DialogueSeen", 0) == 0)
+        {
+            StartDialogue();
+        }
+        else
+        {
+            startGameButton.gameObject.SetActive(true); // Mostra o botão de iniciar jogo se o diálogo já foi visto
+        }
     }
+
     private void Update()
     {
         if (dialogueText.text == dialogueNpc[dialogueIndex])
@@ -50,13 +58,13 @@ public class Dialogo : MonoBehaviour
         }
         else
         {
-            // dialoguePanel.SetActive( false);
             startDialogue = false;
             dialogueIndex = 0;
             startGameButton.gameObject.SetActive(true);
-
+            PlayerPrefs.SetInt("DialogueSeen", 1); // Marca o diálogo como visto
         }
     }
+
     IEnumerator delayMensagem()
     {
         yield return new WaitForSeconds(2f);
@@ -75,22 +83,24 @@ public class Dialogo : MonoBehaviour
 
     IEnumerator showDialogue()
     {
+        dialogueText.text = "";
+        if (dialogueIndex < dialogueImages.Length)
         {
-            dialogueText.text = "";
-            if (dialogueIndex < dialogueImages.Length)
-            {
-                imageNpc.sprite = dialogueImages[dialogueIndex]; // Atualiza a imagem conforme a frase
-            }
-            foreach (char letter in dialogueNpc[dialogueIndex])
-            {
-                dialogueText.text += letter;
-                yield return new WaitForSeconds(textSpeed); // Use textSpeed para controlar a velocidade
-
-            }
+            imageNpc.sprite = dialogueImages[dialogueIndex]; // Atualiza a imagem conforme a frase
         }
-
+        foreach (char letter in dialogueNpc[dialogueIndex])
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(textSpeed); // Use textSpeed para controlar a velocidade
+        }
     }
 
-
-
+    void SkipDialogue()
+    {
+        StopAllCoroutines();
+        startDialogue = false;
+        dialoguePanel.SetActive(false);
+        startGameButton.gameObject.SetActive(true);
+        PlayerPrefs.SetInt("DialogueSeen", 1); // Marca o diálogo como visto
+    }
 }

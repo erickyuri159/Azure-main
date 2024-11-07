@@ -29,15 +29,23 @@ public class EnemyMove : MonoBehaviour
 
     void Update()
     {
-        direction = (player.position - transform.position).normalized;
-
+        // Verifica se o jogo está pausado
+         if (Time.timeScale == 0f) 
+            return;
+        
+            direction = (player.position - transform.position).normalized;
+        
         if (direction.x >= 0)
+        {
             spriteRenderer.flipX = false;
+        }
         else
-            spriteRenderer.flipX = true;
+        { spriteRenderer.flipX = true; }
 
         if (!isDead)
-            transform.Translate(direction.normalized * character.GetSpeed()/15f * Time.deltaTime);
+        {
+            transform.Translate(direction.normalized * character.GetSpeed() / 15f * Time.deltaTime);
+        }
     }
 
     void Initialize()
