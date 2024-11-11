@@ -103,7 +103,7 @@ public class Enemy : Character
     {
        
        
-        GetAnimator().SetBool("die", true);
+        //GetAnimator().SetBool("die", true);
         
         
         GetComponent<EnemyMove>().isDead = true;

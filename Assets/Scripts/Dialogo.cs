@@ -24,7 +24,7 @@ public class Dialogo : MonoBehaviour
 
     void Start()
     {
-        startGameButton.gameObject.SetActive(false);// Esconde o botão no início
+        startGameButton.gameObject.SetActive(false); // Esconde o botão no início
         skipButton.onClick.AddListener(SkipDialogue);
 
         if (PlayerPrefs.GetInt("DialogueSeen", 0) == 0)
@@ -95,9 +95,6 @@ public class Dialogo : MonoBehaviour
     void SkipDialogue()
     {
         StopAllCoroutines();
-        startDialogue = false;
-        dialoguePanel.SetActive(false);
-        startGameButton.gameObject.SetActive(true);
-        PlayerPrefs.SetInt("DialogueSeen", 1); // Marca o diálogo como visto
+        dialogueText.text = dialogueNpc[dialogueIndex]; // Exibe a fala completa imediatamente
     }
 }

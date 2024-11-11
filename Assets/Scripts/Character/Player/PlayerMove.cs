@@ -86,7 +86,7 @@ public class PlayerMove : MonoBehaviour
 
             direcaoMause = PosTelaCorrigida - transform.position;
 
-            Debug.Log(direcaoMause);
+            //Debug.Log(direcaoMause);
 
             animator.SetFloat("horizontal", Mathf.Clamp(direcaoMause.x, -1, 1));
             animator.SetFloat("vertical", Mathf.Clamp(direcaoMause.y, -1, 1));

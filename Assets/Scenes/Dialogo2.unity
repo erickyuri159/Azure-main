@@ -1192,7 +1192,7 @@ MonoBehaviour:
   imageNpc: {fileID: 1207269771}
   spriteNpc: {fileID: -285802986, guid: b9eed1e7797aa1e449d897c69b6981f6, type: 3}
   readyToSpeak: 0
-  startDialogue: 0
+  startDialogue: 1
   textSpeed: 0.04
   startGameButton: {fileID: 2055334323}
   skipButton: {fileID: 1450249601}

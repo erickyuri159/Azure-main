@@ -35,6 +35,6 @@ public class Ima : MonoBehaviour
     {
         raioAlcance += aumento;
         GetComponent<CircleCollider2D>().radius = raioAlcance;
-        Debug.Log("Raio de alcance do ímã aumentado para: " + raioAlcance);
+        //Debug.Log("Raio de alcance do ímã aumentado para: " + raioAlcance);
     }
 }
