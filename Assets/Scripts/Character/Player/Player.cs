@@ -20,6 +20,8 @@ public class Player : Character
     public Animator Anim;
     int roupinha;
 
+    public int vidasExtras = 0; // Vidas extras que o jogador possui
+
     private Player() { }
 
     void Awake()
@@ -29,7 +31,6 @@ public class Player : Character
                 GetComponent<ControladorJogo>();
         Anim = GetComponent<Animator>();
         Initialize();
-
     }
 
     private void Start()
@@ -51,7 +52,7 @@ public class Player : Character
         attackSpeed = 100f;
         expAdditional = 100f;
         luck = 0;
-        hpSlider.maxValue = GetHealthPoint();
+        hpSlider.maxValue = GetMaxHealthPoint();
         hpSlider.value = GetHealthPoint();
         isColliding = false;
 
@@ -95,19 +96,32 @@ public class Player : Character
 
     public override void Die()
     {
-        morto = true;
-        PlayerMove.GetInstance().isDead = true;
-        StartCoroutine(DieAnimation());
+        if (vidasExtras > 0)
+        {
+            vidasExtras--;
+            Respawn();
+        }
+        else
+        {
+            morto = true;
+            PlayerMove.GetInstance().isDead = true;
+            StartCoroutine(DieAnimation());
+        }
+    }
 
+    void Respawn()
+    {
+        morto = false;
+        PlayerMove.GetInstance().isDead = false;
+        RecoverHealthPoint(GetMaxHealthPoint()); // Restaurar a saúde do jogador
+        hpSlider.value = GetHealthPoint(); // Atualizar o Slider de HP
+        transform.position = Vector3.zero; // Exemplo de redefinir a posição do jogador
     }
 
     protected override IEnumerator DieAnimation()
     {
-
         GetAnimator().SetBool("Death", true);
-
         yield return new WaitForSeconds(1.6f);
-
         GameOverWindow.SetActive(true);
         Time.timeScale = 0f;
     }
@@ -130,10 +144,8 @@ public class Player : Character
         if (!PlayerMove.GetInstance().isDead)
         {
             base.ReduceHealthPoint(damage);
-
             hpSlider.value = GetHealthPoint();
             bleeding.Play();
-
             isColliding = true;
 
             if (hitCoroutine == null)
@@ -156,9 +168,15 @@ public class Player : Character
         hitCoroutine = null;
     }
 
+    public void GanharVidaExtra()
+    {
+        vidasExtras++;
+        Debug.Log("Vida extra adquirida! Total de vidas extras: " + vidasExtras);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "moeda") 
+        if (collision.gameObject.tag == "moeda")
         {
             CJ.GanhaMoedas(1);
             Destroy(collision.gameObject);
@@ -167,7 +185,6 @@ public class Player : Character
 
     private void OnTriggerEnter2D(Collider2D colidiu)
     {
-
 
     }
 }

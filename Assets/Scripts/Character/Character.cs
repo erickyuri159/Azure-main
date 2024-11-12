@@ -41,6 +41,11 @@ public abstract class Character : MonoBehaviour
         return healthPoint;
     }
 
+    public int GetMaxHealthPoint()
+    {
+        return maxHealth;
+    }
+
     public int GetAttackPower()
     {
         return attackPower;
@@ -78,7 +83,7 @@ public abstract class Character : MonoBehaviour
 
     public virtual void ReduceHealthPoint(int damage)
     {
-        if(healthPoint <= damage)
+        if (healthPoint <= damage)
         {
             healthPoint = 0;
             Die();

@@ -115,7 +115,7 @@ public class Enemy : Character
         ObjectPooling.ReturnObject(gameObject, GetCharacterType());
         GameObject exp = Instantiate(Explosao, transform.position, Quaternion.identity);
         
-        Destroy(exp, 3f);
+        Destroy(exp, 2f);
 
        if (base.GetCharacterType() == CharacterData.CharacterType.Boss) 
         {

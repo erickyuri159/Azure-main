@@ -30,11 +30,13 @@ public class Dialogo : MonoBehaviour
         if (PlayerPrefs.GetInt("DialogueSeen", 0) == 0)
         {
             StartDialogue();
+            NextDialogue();
         }
         else
         {
             startGameButton.gameObject.SetActive(true); // Mostra o botão de iniciar jogo se o diálogo já foi visto
         }
+        NextDialogue();
     }
 
     private void Update()
