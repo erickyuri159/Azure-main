@@ -6,10 +6,16 @@ public class BauController : MonoBehaviour
     public float tempoVisivel = 120f; // Tempo em segundos que o baú fica visível
     public GameObject moedaPrefab; // Prefab da moeda
     public GameObject pocaoPrefab; // Prefab da poção de vida
+    public GameObject setaPrefab; // Prefab da seta
     private bool podeSerDestruido = false;
+    private GameObject seta; // Referência à seta instanciada
 
     void Start()
     {
+        // Instancia a seta e define o alvo como o baú
+        seta = Instantiate(setaPrefab);
+        seta.GetComponent<ArrowPointer>().SetTarget(transform);
+
         StartCoroutine(DesaparecerAposTempo());
     }
 
@@ -17,6 +23,10 @@ public class BauController : MonoBehaviour
     {
         yield return new WaitForSeconds(tempoVisivel);
         Destroy(gameObject); // Destrói o baú após o tempo definido
+        if (seta != null)
+        {
+            seta.GetComponent<ArrowPointer>().DestroyArrow(); // Destrói a seta
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -40,6 +50,10 @@ public class BauController : MonoBehaviour
                 }
             }
             Destroy(gameObject); // Destrói o baú após ser destruído pelo jogador
+            if (seta != null)
+            {
+                seta.GetComponent<ArrowPointer>().DestroyArrow(); // Destrói a seta
+            }
         }
     }
 

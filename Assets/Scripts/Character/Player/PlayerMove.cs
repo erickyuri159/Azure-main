@@ -34,82 +34,53 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        //Time.timeScale = 1;
         if (!PauseMenu.isPaused)
         {
-          
-
             if (!Level.GetIsLevelUpTime())
             {
+                // Verifica se o botão do mouse está pressionado
+                if (Input.GetMouseButton(0))
+                {
+                    // Pega a posição do mouse
+                    Vector3 destino = Input.mousePosition;
+                    Vector3 PosTela = Camera.main.ScreenToWorldPoint(destino);
+                    Vector3 PosTelaCorrigida = new Vector3(PosTela.x, PosTela.y + 2.5f, 0);
 
+                    direcaoMause = PosTelaCorrigida - transform.position;
 
+                    animator.SetFloat("horizontal", Mathf.Clamp(direcaoMause.x,-1,1));
+                    animator.SetFloat("vertical", Mathf.Clamp(direcaoMause.y, -1, 1));
+                    animator.SetFloat("velocidade", Mathf.Clamp(direcaoMause.sqrMagnitude,-2,2));
 
-                direcaoPlayer = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-                animator.SetFloat("horizontal", direcaoPlayer.x);
-                animator.SetFloat("vertical", direcaoPlayer.y);
-                animator.SetFloat("velocidade", direcaoPlayer.sqrMagnitude);
-            }
+                    // Mover o jogador em direção ao mouse
+                    transform.position = Vector3.MoveTowards(transform.position, PosTelaCorrigida, moveSpeed * Time.deltaTime);
+                }
+                else
+                {
+                    // Pega a entrada do teclado
+                    direcaoPlayer = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+                    animator.SetFloat("horizontal", direcaoPlayer.x);
+                    animator.SetFloat("vertical", direcaoPlayer.y);
+                    animator.SetFloat("velocidade", direcaoPlayer.sqrMagnitude);
 
-            if (direcaoPlayer != Vector2.zero)
-            {
-                animator.SetFloat("horizontal", direcaoPlayer.x);
-                animator.SetFloat("vertical", direcaoPlayer.y);
-                animator.SetFloat("velocidade", direcaoPlayer.sqrMagnitude);
-            }
+                    if (direcaoPlayer != Vector2.zero)
+                    {
+                        animator.SetFloat("horizontal", direcaoPlayer.x);
+                        animator.SetFloat("vertical", direcaoPlayer.y);
+                        animator.SetFloat("velocidade", direcaoPlayer.sqrMagnitude);
+                    }
 
-
-
-                if (!character.morto)
-            {
-                transform.Translate(Vector2.right * horizontal * character.GetSpeed() / 10f * Time.deltaTime);
-                transform.Translate(Vector2.up * vertical * character.GetSpeed() / 10f * Time.deltaTime);
-                
+                }
             }
         }
     }
 
     private void FixedUpdate()
     {
-
-
-        if (Input.GetMouseButton(0))
-        {
-            //direcaoMause = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-
-            // pegar posição mause
-            Vector3 destino = Input.mousePosition;
-
-           
-            //transformar posição tela 
-            Vector3 PosTela = Camera.main.ScreenToWorldPoint(destino);
-            Vector3 PosTelaCorrigida = new Vector3(PosTela.x, PosTela.y + 2.5f, 0);
-
-            direcaoMause = PosTelaCorrigida - transform.position;
-
-            //Debug.Log(direcaoMause);
-
-            animator.SetFloat("horizontal", Mathf.Clamp(direcaoMause.x, -1, 1));
-            animator.SetFloat("vertical", Mathf.Clamp(direcaoMause.y, -1, 1));
-            animator.SetFloat("velocidade", direcaoMause.sqrMagnitude);
-
-
-            // mover
-
-            transform.position = Vector3.MoveTowards(transform.position, PosTelaCorrigida, 0.04f);
-        }
-        else 
-        {
-            animator.SetFloat("velocidade", 0);
-            animator.SetFloat("horizontalidle", direcaoPlayer.x);
-            animator.SetFloat("verticalidle", direcaoPlayer.y);
-        }
         if (!character.morto)
         {
             Playerbody2D.MovePosition(Playerbody2D.position + direcaoPlayer * moveSpeed * Time.fixedDeltaTime);
-        }
-
-
-           
+        }           
     }
 
     public static PlayerMove GetInstance()
