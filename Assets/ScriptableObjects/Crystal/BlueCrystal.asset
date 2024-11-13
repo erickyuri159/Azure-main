@@ -15,4 +15,4 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: ba09c324c9851f740ba7ebd7a7508d4f, type: 3}
   controller: {fileID: 0}
   crystalType: 0
-  expValue: 10
+  expValue: 8

@@ -27567,7 +27567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &334891389
 Transform:
   m_ObjectHideFlags: 0
@@ -252980,7 +252980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &682771047
 Transform:
   m_ObjectHideFlags: 0
@@ -253195,6 +253195,10 @@ PrefabInstance:
     - target: {fileID: 4144857727835334369, guid: ed5c9cb159503e14ab4327ace9a42d89, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206025348710508305, guid: ed5c9cb159503e14ab4327ace9a42d89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4215000700400986592, guid: ed5c9cb159503e14ab4327ace9a42d89, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -705068,6 +705072,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3852854694937172062, guid: f393bd2e57840914aa01369550b44ace, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -706281,6 +706289,10 @@ PrefabInstance:
       propertyPath: m_ShadowMesh.m_Mesh
       value: 
       objectReference: {fileID: 2027910910}
+    - target: {fileID: 7110034643168861067, guid: a8b2bbe003052174fbb9a49017d43fff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7132264499244225261, guid: a8b2bbe003052174fbb9a49017d43fff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
