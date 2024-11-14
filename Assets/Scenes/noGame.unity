@@ -27853,6 +27853,7 @@ MonoBehaviour:
   hpSlider: {fileID: 1704161233}
   bleeding: {fileID: 231034389}
   GameOverWindow: {fileID: 1225765235}
+  healingEffect: {fileID: 3638047431259545780, guid: f0b8db623fa259b4d85ac7502fcb5e2c, type: 3}
   morto: 0
   CJ: {fileID: 2136300043}
   Roupinhas:

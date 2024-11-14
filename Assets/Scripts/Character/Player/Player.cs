@@ -9,6 +9,7 @@ public class Player : Character
     [SerializeField] Slider hpSlider;
     [SerializeField] ParticleSystem bleeding;
     [SerializeField] GameObject GameOverWindow;
+    [SerializeField] ParticleSystem healingEffect; // Adicione esta linha
     static Player instance;
     float attackSpeed;
     float expAdditional;
@@ -186,5 +187,20 @@ public class Player : Character
     private void OnTriggerEnter2D(Collider2D colidiu)
     {
 
+    }
+    public void UpdateHealthBar()
+    {
+        if (hpSlider != null)
+        {
+            hpSlider.value = (float)GetHealthPoint() / GetMaxHealthPoint();
+        }
+    }
+
+    public void PlayHealingEffect() // Adicione este método
+    {
+        if (healingEffect != null)
+        {
+            healingEffect.Play();
+        }
     }
 }

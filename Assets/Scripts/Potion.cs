@@ -13,8 +13,11 @@ public class Potion : MonoBehaviour
             {
                 int healthToRecover = Mathf.RoundToInt(player.GetMaxHealthPoint() * healthRecoveryPercentage);
                 player.RecoverHealthPoint(healthToRecover);
+                player.UpdateHealthBar(); // Chama o método para atualizar a barra de HP
+                player.PlayHealingEffect(); // Chama o método para reproduzir o efeito de cura
                 Destroy(gameObject); // Destrói a poção após ser usada
             }
         }
     }
 }
+
