@@ -6,7 +6,7 @@ public class CharacterData : ScriptableObject
     [SerializeField] Sprite sprite;
     [SerializeField] RuntimeAnimatorController controller;
     [SerializeField] CharacterType characterType;
-    [SerializeField] int healthPoint;
+    [SerializeField] float healthPoint;
     [SerializeField] int attackPower;
     [SerializeField] int defencePower;
     [SerializeField] int speed;
@@ -22,7 +22,7 @@ public class CharacterData : ScriptableObject
         Bandit
     }
 
-    public int GetHealthPoint()
+    public float GetHealthPoint()
     {
         return healthPoint;
     }

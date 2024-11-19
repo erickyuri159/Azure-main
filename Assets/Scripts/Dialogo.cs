@@ -60,6 +60,7 @@ public class Dialogo : MonoBehaviour
             startDialogue = false;
             dialogueIndex = 0;
             startGameButton.gameObject.SetActive(true);
+            skipButton.gameObject.SetActive(false); // Esconde o botão de pular quando o diálogo termina
             PlayerPrefs.SetInt("DialogueSeen", 1); // Marca o diálogo como visto
         }
     }
@@ -77,6 +78,7 @@ public class Dialogo : MonoBehaviour
         startDialogue = true;
         dialogueIndex = 0;
         dialoguePanel.SetActive(true);
+        skipButton.gameObject.SetActive(true); // Mostra o botão de pular no início do diálogo
         StartCoroutine(showDialogue());
     }
 

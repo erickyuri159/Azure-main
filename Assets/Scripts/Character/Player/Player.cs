@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+//using UnityEngine.UIElements;
+
 
 public class Player : Character
 {
@@ -42,7 +44,7 @@ public class Player : Character
 
     private void Update()
     {
-
+        hpSlider.value = GetHealthPoint();
     }
 
     protected override void Initialize()
@@ -53,6 +55,7 @@ public class Player : Character
         attackSpeed = 100f;
         expAdditional = 100f;
         luck = 0;
+        //hpSlider.va
         hpSlider.maxValue = GetMaxHealthPoint();
         hpSlider.value = GetHealthPoint();
         isColliding = false;
@@ -154,6 +157,8 @@ public class Player : Character
         }
     }
 
+   
+
     protected override IEnumerator UnderAttack()
     {
         spriteRenderer.color = Color.red;
@@ -192,7 +197,8 @@ public class Player : Character
     {
         if (hpSlider != null)
         {
-            hpSlider.value = (float)GetHealthPoint() / GetMaxHealthPoint();
+            //Debug.Log(hpSlider.value);
+            hpSlider.value = GetHealthPoint() / GetMaxHealthPoint();
         }
     }
 

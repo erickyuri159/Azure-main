@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixel art of a castle on fire for a game over screen background_0: 2764980334961684393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,11 +7,11 @@ public abstract class Character : MonoBehaviour
     Sprite sprite;
     RuntimeAnimatorController controller;
     Animator animator;
-    int healthPoint;
+    float healthPoint;
     int attackPower;
     int defencePower;
     int speed;
-    int maxHealth;
+    float maxHealth;
     internal Coroutine hitCoroutine;
     internal SpriteRenderer spriteRenderer;
 
@@ -36,12 +36,12 @@ public abstract class Character : MonoBehaviour
         healthPoint = characterData.GetHealthPoint();
     }
 
-    public int GetHealthPoint()
+    public float GetHealthPoint()
     {
         return healthPoint;
     }
 
-    public int GetMaxHealthPoint()
+    public float GetMaxHealthPoint()
     {
         return maxHealth;
     }
@@ -94,7 +94,7 @@ public abstract class Character : MonoBehaviour
         }
     }
 
-    public void RecoverHealthPoint(int amount)
+    public void RecoverHealthPoint(float amount)
     {
         if (healthPoint + amount > maxHealth)
         {

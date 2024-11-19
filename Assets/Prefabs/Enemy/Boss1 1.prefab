@@ -280,7 +280,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: d0ca15ae2c2980940b318e76156e576c, type: 2}
   crystalType: 2
   moedaPrefab: {fileID: 3719687439627494801, guid: 95c20a22c476f874c89564a7599d4d62, type: 3}
-  Explosao: {fileID: 8398435547309867371, guid: a3f937f741d242349af8b5bfa95139cf, type: 3}
+  Explosao: {fileID: 361813564708801591, guid: 703819efcb328924191acf7dad94e47d, type: 3}
 --- !u!114 &9004983834083981451
 MonoBehaviour:
   m_ObjectHideFlags: 0

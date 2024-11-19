@@ -1180,10 +1180,11 @@ MonoBehaviour:
   - acredito que vai ser dificil mais vamos la!
   - "A cada mostro morto tem chance de cair EXP e voc\xEA ganhar levels"
   - "a cada level ganho voc\xEA escolhera novas habilidades"
+  - "surgira novos baus com po\xE7\xE3o e moedas."
   - "os ataques v\xE3o ser automaticos..."
   - "a sobrevivencia depender\xE0 da sua habilidade "
-  - "N\xE3o deixe o fim do universo chegar ao fim dependemos de voc\xEA,"
-  - "N\xE3o deixe o nosso reino queimar..."
+  - "N\xE3o deixe o fim do universo chegar"
+  - "lute pelo nosso reino n\xE3o queimar..."
   dialogueImages: []
   dialogueIndex: 0
   dialoguePanel: {fileID: 177257219}
@@ -1548,15 +1549,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ola
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 748d020af5bda144481e3e4714389379, type: 2}
-  m_sharedMaterial: {fileID: -7452018602743350286, guid: 748d020af5bda144481e3e4714389379, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278252287
+  m_fontColor: {r: 1, g: 0.9479667, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

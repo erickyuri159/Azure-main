@@ -39,13 +39,9 @@ public class Crystal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.layer == 3)
+        if (collider.gameObject.layer == 3) // Verifica se colidiu com o jogador
         {
-            if (coroutine == null)
-                coroutine = StartCoroutine(CrystalAnimation());
-
-            if (isCollided)
-                GetCrystal();
+            GetCrystal(); // Chama GetCrystal diretamente para desaparecer imediatamente
         }
     }
 
@@ -77,7 +73,7 @@ public class Crystal : MonoBehaviour
 
     IEnumerator Disable()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
 
         GetCrystal();
     }
