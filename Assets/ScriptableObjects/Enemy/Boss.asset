@@ -15,7 +15,7 @@ MonoBehaviour:
   sprite: {fileID: 2138206736, guid: cc6e0ef3b00f5bf46b91b6356bd2bcbe, type: 3}
   controller: {fileID: 9100000, guid: 364a8aa6766b1d546a980cec8cf36a1d, type: 2}
   characterType: 4
-  healthPoint: 500
+  healthPoint: 5000
   attackPower: 150
   defencePower: 0
-  speed: 15
+  speed: 18
