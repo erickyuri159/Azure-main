@@ -11,6 +11,7 @@ TagManager:
   - Ima
   - Boss
   - crystal
+  - Ground
   layers:
   - Default
   - TransparentFX

@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Tilemaps;
+
 
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] TextMeshProUGUI killCountText;
+    [SerializeField] Tilemap groundTilemap; // Adicione esta linha
     static EnemySpawner instance;
     public List<GameObject> enemyList = new List<GameObject>(500);
     const float maxX = 10;
@@ -85,7 +88,8 @@ public class EnemySpawner : MonoBehaviour
                     QuantidadeInimigos++;
                     break;
                 case 6:
-                    if (spawnedBosses < 15)
+                    int bossesToSpawn = 8; // Quantidade de Bosses a serem gerados por iteração
+                    while (spawnedBosses < 15 && bossesToSpawn > 0)
                     {
                         newEnemy = ObjectPooling.GetObject(CharacterData.CharacterType.Boss);
                         listaMonstro.Add(newEnemy);
@@ -94,20 +98,16 @@ public class EnemySpawner : MonoBehaviour
                         newEnemy.transform.position = RandomPosition();
                         newEnemy.SetActive(true);
                         enemyList.Add(newEnemy);
+                        bossesToSpawn--;
                     }
                     if (QuantidadeInimigos <= 1)
                     {
                         stage = 1;
                     }
-                    /*else
-                     {
-                         // Saia do loop ou faça qualquer outra limpeza necessária
-                         yield break;
-                     }*/
                     break;
             }
 
-            if(stage != 6) { 
+            if (stage != 6) { 
                 newEnemy.transform.position = RandomPosition();
                 newEnemy.SetActive(true);
                 enemyList.Add(newEnemy);
@@ -128,30 +128,23 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
+
     Vector3 RandomPosition()
     {
         Vector3 pos = new Vector3();
+        BoundsInt bounds = groundTilemap.cellBounds;
 
-        Direction direction = (Direction)Random.Range(0, 4);
-
-        switch (direction)
+        while (true)
         {
-            case Direction.North:
-                pos.x = Random.Range(player.transform.position.x - maxX, player.transform.position.x + maxX);
-                pos.y = player.transform.position.y + 10f;
+            int x = Random.Range(bounds.xMin, bounds.xMax);
+            int y = Random.Range(bounds.yMin, bounds.yMax);
+            Vector3Int cellPosition = new Vector3Int(x, y, 0);
+
+            if (groundTilemap.HasTile(cellPosition))
+            {
+                pos = groundTilemap.CellToWorld(cellPosition) + groundTilemap.cellSize / 2;
                 break;
-            case Direction.South:
-                pos.x = Random.Range(player.transform.position.x - maxX, player.transform.position.x + maxX);
-                pos.y = player.transform.position.y - 10f;
-                break;
-            case Direction.West:
-                pos.x = player.transform.position.x - 16f;
-                pos.y = Random.Range(player.transform.position.y - maxY, player.transform.position.y + maxY);
-                break;
-            case Direction.East:
-                pos.x = player.transform.position.x + 15f;
-                pos.y = Random.Range(player.transform.position.y - maxY, player.transform.position.y + maxY);
-                break;
+            }
         }
 
         return pos;

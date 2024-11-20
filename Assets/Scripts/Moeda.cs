@@ -21,7 +21,7 @@ public class Moeda : MonoBehaviour
         if (collider.gameObject.layer == 3)
         {
           Player player = collider.gameObject.GetComponent<Player>();
-            player.CJ.GanhaMoedas(1);
+            player.CJ.GanhaMoedas(100);// Alterar o valor da moeda para 100
             Destroy(gameObject);
         }
     }

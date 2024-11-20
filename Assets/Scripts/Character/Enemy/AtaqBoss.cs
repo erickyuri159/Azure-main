@@ -6,7 +6,12 @@ public class AtaqBoss : MonoBehaviour
     Enemy character;
     Coroutine coroutine;
     Animator animator;
-    public float attackRange = 2.0f; // Distância para iniciar o ataque
+    public float attackRange = 2.0f; // Distï¿½ncia para iniciar o ataque
+    public GameObject fireballPrefab; // Prefab da bola de fogo
+    public Transform firePoint; // Ponto de origem da bola de fogo
+    public GameObject groundMarkerPrefab; // Prefab do marcador no solo
+    public float fireballSpeed = 10.0f; // Velocidade da bola de fogo
+    public float markerLifetime = 2.0f; // Tempo de vida do marcador no solo
 
     void Awake()
     {
@@ -45,8 +50,9 @@ public class AtaqBoss : MonoBehaviour
         while (true)
         {
             GiveDamage();
-            animator.SetTrigger("Attack"); // Chama a animação de ataque
-            yield return new WaitForSeconds(0.2f);
+            animator.SetTrigger("Attack"); // Chama a animaï¿½ï¿½o de ataque
+            yield return new WaitForSeconds(1.0f); // Intervalo entre ataques
+            LaunchFireball();
         }
     }
 
@@ -54,5 +60,34 @@ public class AtaqBoss : MonoBehaviour
     {
         int damage = character.GetAttackPower() - (int)(character.GetAttackPower() * Player.GetInstance().GetDefencePower() / 100f);
         Player.GetInstance().ReduceHealthPoint(damage);
+    }
+
+    void LaunchFireball()
+    {
+        GameObject player = Player.GetInstance().gameObject;
+        Vector3 targetPosition = player.transform.position;
+
+        // Iniciar a Coroutine para lanï¿½ar a bola de fogo com atraso
+        StartCoroutine(LaunchFireballWithDelay(targetPosition));
+    }
+
+    IEnumerator LaunchFireballWithDelay(Vector3 targetPosition)
+    {
+        // Marcar o solo onde a bola de fogo cairï¿½
+        GameObject marker = Instantiate(groundMarkerPrefab, targetPosition, Quaternion.identity);
+        Destroy(marker, markerLifetime); // Destruir o marcador apï¿½s o tempo especificado
+
+        // Esperar 2 segundos antes de lanï¿½ar a bola de fogo
+        yield return new WaitForSeconds(2.0f);
+
+        // Lanï¿½ar a bola de fogo
+        GameObject fireball = Instantiate(fireballPrefab, firePoint.position, Quaternion.identity);
+        Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+        {
+            Vector3 direction = (targetPosition - firePoint.position).normalized;
+            rb.linearVelocity = direction * fireballSpeed;
+        }
     }
 }
