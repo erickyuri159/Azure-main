@@ -25,7 +25,7 @@ public class Store : MonoBehaviour
 
     public void BuyMagnetUpgrade()
     {
-        int magnetUpgradeCost = 50;
+        int magnetUpgradeCost = 1500;
 
         if (CJ.moedas >= magnetUpgradeCost)
         {
