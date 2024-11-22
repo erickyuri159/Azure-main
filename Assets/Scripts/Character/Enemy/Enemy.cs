@@ -13,6 +13,7 @@ public class Enemy : Character
     Rigidbody2D rigidbody;
     public GameObject Explosao;
     //public GameObject Moeda;
+    public int health;
 
     void Awake()
     {
@@ -75,6 +76,14 @@ public class Enemy : Character
     {
         rigidbody.AddForce(enemyMove.GetDirection() * -2f, ForceMode2D.Impulse);
     }
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
 
     public override void Die()
     {
@@ -131,4 +140,7 @@ public class Enemy : Character
 
 
     }
+    
+
+    
 }
