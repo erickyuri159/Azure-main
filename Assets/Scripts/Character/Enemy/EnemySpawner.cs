@@ -165,6 +165,27 @@ public class EnemySpawner : MonoBehaviour
         return enemyList[(int)min[0]].transform.position;
     }
 
+    public Enemy GetNearestEnemy()
+    {
+        float[] min = { 0, float.MaxValue };
+        float maxDistance = 5f;
+
+        for (int i = 0; i < enemyList.Count; i++)
+        {
+            if (enemyList[i].activeSelf)
+            {
+                float distance = (enemyList[i].transform.position - Player.GetInstance().GetPosition()).sqrMagnitude;
+                if (distance < min[1] && distance < maxDistance * maxDistance)
+                {
+                    min[0] = i;
+                    min[1] = distance;
+                }
+            }
+        }
+
+        return min[1] < maxDistance * maxDistance ? enemyList[(int)min[0]].GetComponent<Enemy>() : null;
+    }
+
     public Vector2 GetRandomEnemyPosition()
     {
         int random = Random.Range(0, enemyList.Count);

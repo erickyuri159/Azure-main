@@ -10,7 +10,8 @@ public class Player : Character
     [SerializeField] ParticleSystem bleeding;
     [SerializeField] GameObject GameOverWindow;
     [SerializeField] ParticleSystem healingEffect;
-    [SerializeField] GameObject lightningPrefab; // Adicione esta linha
+    [SerializeField] GameObject lightningPrefab;
+    [SerializeField] ParticleSystem lightningParticle; // Adicione esta linha
     static Player instance;
     float attackSpeed;
     float expAdditional;
@@ -42,11 +43,16 @@ public class Player : Character
     {
         roupinha = PlayerPrefs.GetInt("Roupinha");
         Anim.SetInteger("Roupinha", roupinha);
+        StartCoroutine(AutoActivateLightningAbility());
     }
 
     private void Update()
     {
         hpSlider.value = GetHealthPoint();
+        if (Input.GetKeyDown(KeyCode.Mouse2))
+        {
+            ActivateLightningAbility();
+        }
     }
 
     protected override void Initialize()
@@ -216,6 +222,14 @@ public class Player : Character
     {
         lightningAbilityLevel = level;
     }
+    private IEnumerator AutoActivateLightningAbility()
+    {
+        while (true)
+        {
+            ActivateLightningAbility();
+            yield return new WaitForSeconds(6f);
+        }
+    }
 
     public void ActivateLightningAbility()
     {
@@ -224,45 +238,31 @@ public class Player : Character
 
     private IEnumerator LightningAbilityCoroutine()
     {
-        while (true)
+        // Obtém o inimigo mais próximo
+        Enemy nearestEnemy = EnemySpawner.GetInstance().GetNearestEnemy();
+
+        if (nearestEnemy != null)
         {
-            yield return new WaitForSeconds(10f);
+            // Configura o raio de relâmpago
+            LineRenderer lineRenderer = Instantiate(lightningPrefab).GetComponent<LineRenderer>();
+            ConfigureLightning(lineRenderer, transform.position, nearestEnemy.transform.position);
 
-            List<Enemy> enemies = new List<Enemy>(FindObjectsOfType<Enemy>());
-            if (enemies.Count > 0)
-            {
-                int targetsHit = 0;
-                int maxTargets = 2 + lightningAbilityLevel;
+            // Ativa o efeito de relâmpago
+            lineRenderer.gameObject.SetActive(true);
 
-                Enemy currentTarget = enemies[Random.Range(0, enemies.Count)];
-                while (targetsHit < maxTargets && currentTarget != null)
-                {
-                    // Lógica para aplicar dano ao inimigo
-                    currentTarget.TakeDamage(10 + (5 * lightningAbilityLevel));
+            // Ativa a partícula de ataque
+            PlayLightningParticle(); // Adicione esta linha
 
-                    // Instanciar o raio
-                    GameObject lightning = Instantiate(lightningPrefab, transform.position, Quaternion.identity);
-                    LineRenderer lineRenderer = lightning.GetComponent<LineRenderer>();
-                    ConfigureLightning(lineRenderer, transform.position, currentTarget.transform.position);
+            // Provoca dano no inimigo mais próximo
+            nearestEnemy.TakeDamage(GetAttackPower());
 
-                    // Encontrar próximo alvo
-                    enemies.Remove(currentTarget);
-                    if (enemies.Count > 0)
-                    {
-                        currentTarget = enemies[Random.Range(0, enemies.Count)];
-                    }
-                    else
-                    {
-                        currentTarget = null;
-                    }
+            // Aguarda um tempo antes de desativar o efeito
+            yield return new WaitForSeconds(0.5f);
 
-                    targetsHit++;
-                    yield return new WaitForSeconds(0.5f);
-                }
-            }
+            // Desativa o efeito de relâmpago
+            lineRenderer.gameObject.SetActive(false);
         }
     }
-
 
     public IEnumerator ActivateInvulnerability()
     {
@@ -274,6 +274,7 @@ public class Player : Character
             yield return new WaitForSeconds(117f);
         }
     }
+
     private void ConfigureLightning(LineRenderer lineRenderer, Vector3 start, Vector3 end)
     {
         lineRenderer.positionCount = 2;
@@ -290,4 +291,11 @@ public class Player : Character
         lineRenderer.SetPositions(positions);
     }
 
+    private void PlayLightningParticle() // Adicione este método
+    {
+        if (lightningParticle != null)
+        {
+            lightningParticle.Play();
+        }
+    }
 }
