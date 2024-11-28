@@ -7,22 +7,22 @@ public class Buttons : MonoBehaviour
 {
     public void ToStartScreen()
     {
-        SceneManager.LoadScene("inicio");
+        SceneManager.LoadScene(0);
         Time.timeScale = 1f;
         PauseMenu.isPaused = false;
     }
 
     public void ToGameScreen()
     {
-        SceneManager.LoadScene("noGame");
+        SceneManager.LoadScene(2);
     }
     public void ToDialogueScene()
     {
-        SceneManager.LoadScene("dialogo2");
+        SceneManager.LoadScene(3);
     }
     public void ToDialogueScene2()
     {
-        SceneManager.LoadScene("dialogo");
+        SceneManager.LoadScene(1);
     }
 
     public void Pause()
